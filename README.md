@@ -18,4 +18,6 @@
 
 - 結果
 
-## 統計
+## 參考資料
+
+[faker](https://github.com/stympy/faker)
