@@ -27,7 +27,7 @@ range.map(index => {
 
     data.push(json);
 });
-console.log(__dirname);
-fs.writeFile('./data.json', JSON.stringify(data), function(){
+
+fs.writeFile('./data.js', "export default const data = " + JSON.stringify(data), function(){
     console.log('create faker data success!');
 });
